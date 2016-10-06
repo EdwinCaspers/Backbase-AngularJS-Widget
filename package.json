@@ -1,0 +1,85 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.5.2",
+    "browser-sync": "^2.2.1",
+    "browserify": "^13.1.0",
+    "chai": "^3.5.0",
+    "del": "^1.1.1",
+    "eslint-plugin-one-variable-per-var": "0.0.3",
+    "eslint-plugin-require": "0.0.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-babel": "^6.1.1",
+    "gulp-cache": "^0.4.2",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csslint": "^1.0.0",
+    "gulp-documentation": "^2.2.0",
+    "gulp-eslint": "^2.1.0",
+    "gulp-git": "^1.11.3",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jasmine-browser": "^1.6.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jscs-stylish": "^1.4.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify": "0.0.14",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-pretty-data": "^0.1.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-scss-lint": "^0.4.0",
+    "gulp-size": "^1.2.1",
+    "gulp-tap": "^0.1.3",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.0.0",
+    "gulp-zip": "^3.2.0",
+    "jasmine": "^2.5.2",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "karma": "^1.3.0",
+    "karma-browserify": "^5.1.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha": "^1.1.1",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-phantomjs2-launcher": "^0.5.0",
+    "karma-safari-launcher": "^1.0.0",
+    "main-bower-files": "^2.5.0",
+    "mocha": "^3.0.2",
+    "wiredep": "^2.2.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  },
+  "dependencies": {
+    "gulp-html-lint": "0.0.1"
+  }
+}

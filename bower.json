@@ -1,0 +1,42 @@
+{
+  "name": "basic-widget",
+  "version": "1.0.0",
+  "description": "basic widget",
+  "main": "./src/scripts/index.js",
+  "authors": [
+    ""
+  ],
+  "moduleType": [
+    "umd"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap-sass": "^3.3.5",
+    "ionic": "^1.1.0",
+    "modernizr": "^2.8.1"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "angular-mocks": "^1.4.7"
+  },
+  "resolutions": {
+    "angular": "^1.5.8"
+  },
+  "scripts": {
+    "angular": "^1.5.8"
+  }
+}

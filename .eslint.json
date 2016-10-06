@@ -1,0 +1,28 @@
+{
+    "rules": {
+        "quotes": [1, "single"],
+        "indent": 2,
+        "no-console":1,
+        "no-unused-vars":1,
+        "brace-style": [2, "1tbs"],
+        "no-underscore-dangle":0,
+        "require/require-module-prefix":1,
+        "require/require-define":1
+
+    },
+	
+	"plugins": [
+        "eslint-plugin-require",
+        "eslint-plugin-one-variable-per-var"
+    ],
+
+    "env": {
+      "browser": true,
+      "amd":true
+    },
+    
+    "globals":{
+        "angular":false
+    }
+   
+}

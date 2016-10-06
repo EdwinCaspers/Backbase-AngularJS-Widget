@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
+    <head>
+        <title>basic-widget</title>
+        <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <!-- externals -->
+        <!-- build:css $(contextRoot)/static/features/[BBHOST]/ionic/release/css/ionic.min.css -->
+        <link rel="stylesheet" type="text/css" href="../bower_components/ionic/release/css/ionic.css"></link>
+        <!-- endbuild -->
+        <!-- widget -->
+        <!-- build:css styles/index.css -->
+        <link rel="stylesheet" type="text/css" href="styles/index.css"></link>
+        <!-- endbuild -->
+        <!-- build:js $(contextRoot)/static/features/[BBHOST]/angular/angular.min.js -->
+        <script src="../bower_components/angular/angular.js"></script>
+        <!-- endbuild -->
+        <!-- build:js scripts/index.js -->
+        <script charset="utf-8" async="true" defer="true" src="scripts/index.js"></script>
+        <!-- add here all the rest of the *.js files -->
+        <!-- endbuild -->
+    </head>
+
+    <body g:onload="window.basicWidget(__WIDGET__, []).bootstrap()"
+        ng-controller="MainCtrl as mainCtrl"
+        class="basic-widget">
+        <h1>Hello world</h1>
+    </body>
+
+</html>

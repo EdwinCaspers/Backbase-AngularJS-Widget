@@ -1,0 +1,11 @@
+bower_components/
+
+dist/
+
+docs/
+
+node_modules/
+
+styles/index.css
+
+test/bower_components/
